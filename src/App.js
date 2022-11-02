@@ -8,8 +8,6 @@ import "./App.css";
 
 require("dotenv").config();
 
-console.log(process.env.REACT_APP_TEMPLATE_ID);
-
 const App = () => {
   return (
     // <div className="App gradient__bg-subpage">

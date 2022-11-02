@@ -42,7 +42,7 @@ const Features = () => {
             <h3>Accesibility</h3>
             <p>
               Our vehicles are equipped properly to handle all of our patients
-              needs, including wheelchair accesibility and stretchers.
+              needs, including wheelchair accessibility and stretchers.
             </p>
           </div>
           <div className="et__features-tile t4">

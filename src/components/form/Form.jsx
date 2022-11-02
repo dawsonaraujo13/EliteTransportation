@@ -387,11 +387,11 @@ const Form = () => {
                     <input
                       type="radio"
                       name="service_type"
-                      id="bariatrich"
-                      value="bariatrich"
+                      id="bariatric"
+                      value="bariatric"
                       className={toSend.service_type.length ? "" : "error"}
                     />
-                    <label htmlFor="">Bariatrich</label>
+                    <label htmlFor="">Bariatric</label>
                   </div>
                 </div>
               </label>

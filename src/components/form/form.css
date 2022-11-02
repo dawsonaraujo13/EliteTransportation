@@ -1,0 +1,146 @@
+.et__form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  font-family: var(--font-family);
+}
+
+.et__form-container {
+  padding: 2rem;
+  box-shadow: 0, 0, 5, rgba(0, 0, 0, 0.2);
+}
+
+.et__form {
+  padding: 1rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.et__form h3 {
+  margin: 4px;
+}
+
+.et__form-title {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.et__form-title h2 {
+  text-align: center;
+}
+
+.et__form-title p {
+  text-align: left;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.et__form label {
+  display: flex;
+  flex-direction: column;
+  margin: 4px;
+  flex: 1;
+}
+
+.et__form input {
+  width: 100%;
+  height: 2.4rem;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.double {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.et__form-info input {
+  height: 8rem;
+  margin-top: 6px;
+}
+
+textarea {
+  margin-top: 4px;
+}
+
+.et__form-radio-option {
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  height: 2rem;
+}
+
+.et__form-radio-option input {
+  width: 1rem;
+  margin: 2px;
+  justify-content: center;
+}
+
+.submitButton {
+  justify-content: center;
+  height: 3rem;
+  width: 6rem;
+  color: #fff;
+  background-color: red;
+  border: none;
+  font-size: large;
+}
+.et__form-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.error {
+  border: 2px solid #eb516d;
+}
+
+button:active {
+  background-color: gray;
+}
+
+@media screen and (max-width: 750px) {
+  .double {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .et__form {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .et__form {
+    width: 24rem;
+  }
+  .et__form-container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .et__form {
+    font-size: medium;
+  }
+
+  .et__form {
+    width: 22rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .et__form {
+    width: 18rem;
+  }
+}

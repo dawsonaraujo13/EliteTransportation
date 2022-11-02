@@ -1,0 +1,29 @@
+.et__header-contact {
+  display: flex;
+  background-color: var(--color-dark-red);
+  width: 100%;
+  justify-content: center;
+  color: white;
+  font-family: var(--font-family);
+  font-size: large;
+  border-top: 1px solid;
+  border-color: gold;
+}
+
+.et__header-contact-cta {
+  padding: 8px;
+}
+
+.et__header-contact-item {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.et__header-contact-item p {
+  margin-left: 4px;
+}
+
+.et__header-contact-items {
+  display: flex;
+}

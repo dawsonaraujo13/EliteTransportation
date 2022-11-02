@@ -1,0 +1,155 @@
+.et__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 6rem;
+}
+
+.et__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.et__navbar-links a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.et__navbar-links_logo {
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.et__navbar-links_logo img {
+  width: 14rem;
+  height: 8rem;
+}
+
+.et__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.et__navbar-links_container p,
+.et__navbar-menu_container p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.et__navbar-menu_container a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.et__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.et__navbar-menu svg {
+  cursor: pointer;
+}
+
+.et__navbar-menu_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  text-align: end;
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0, 0, 5, rgba(0, 0, 0, 0.2);
+}
+
+.et__navbar-menu_container p {
+  margin: 0 1rem;
+}
+
+.et__navbar-menu_container-links p {
+  margin: 0.8rem;
+}
+
+.gradient__bg-menu {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 20% 80%,
+    rgba(88, 88, 88, 1) 0%,
+    rgba(188, 188, 188, 1) 99%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 20% 80%,
+    rgba(88, 88, 88, 1) 0%,
+    rgba(188, 188, 188, 1) 99%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 20% 80%,
+    rgba(88, 88, 88, 1) 0%,
+    rgba(188, 188, 188, 1) 99%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 20% 80%,
+    rgba(88, 88, 88, 1) 0%,
+    rgba(188, 188, 188, 1) 99%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 20% 80%,
+    rgba(88, 88, 88, 1) 0%,
+    rgba(188, 188, 188, 1) 99%
+  );
+}
+
+@media screen and (max-width: 1050px) {
+  .et__navbar-links_container {
+    display: none;
+  }
+
+  .et__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .et__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .et__navbar {
+    padding: 2rem;
+  }
+
+  .et__navbar-menu_container {
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .et__navbar-links_logo img {
+    width: 10rem;
+  }
+}

@@ -1,0 +1,137 @@
+.et__header-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* border-bottom: 1px solid;
+  border-color: gold; */
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.et__header-content {
+  width: 100%;
+  height: 50rem;
+  background-image: url(../../assets/image2.jpeg);
+  background-position: 50% 30%;
+  background-size: cover;
+  display: flex;
+}
+
+.shadow {
+  background-size: cover;
+}
+
+.shadow::after {
+  content: " ";
+  height: 50rem;
+  width: 100%;
+  position: absolute;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.et__header-cta-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.et__banner-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .et__header-content {
+    height: 35rem;
+  }
+  .shadow::after {
+    height: 35rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .et__header-content {
+    height: 25rem;
+  }
+
+  .shadow::after {
+    height: 25rem;
+  }
+
+  .et__header-content h2 {
+    font-size: large;
+  }
+
+  .et__header-content h3 {
+    font-size: medium;
+  }
+
+  .et__header-cta-zone a {
+    font-size: medium;
+  }
+
+  .et__header-contact-cta {
+    display: none;
+  }
+
+  .et__header-contact {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .et__header-content {
+    height: 20rem;
+  }
+
+  .shadow::after {
+    height: 20rem;
+  }
+
+  .et__header-content h2 {
+    font-size: large;
+  }
+
+  .et__header-content h3 {
+    font-size: medium;
+  }
+
+  .et__header-contact {
+    font-size: small;
+  }
+
+  .et__header-cta-zone a {
+    font-size: medium;
+  }
+
+  .et__cta-wrapper {
+    height: 8rem;
+    background-color: rgba(67, 63, 63, 0.3);
+  }
+
+  .et__cta-header {
+    padding: 0;
+  }
+
+  .et__cta-content {
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .et__cta-button {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .et__header-contact-items {
+    flex-direction: column;
+  }
+}

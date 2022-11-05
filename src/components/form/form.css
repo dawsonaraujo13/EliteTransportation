@@ -71,6 +71,7 @@
 
 textarea {
   margin-top: 4px;
+  background-color: rgb(235, 235, 235);
 }
 
 .et__form-radio-option {

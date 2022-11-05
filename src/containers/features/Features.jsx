@@ -39,7 +39,7 @@ const Features = () => {
               <RiWheelchairFill color="#fff" size={34} />
             </div>
 
-            <h3>Accesibility</h3>
+            <h3>Accessibility</h3>
             <p>
               Our vehicles are equipped properly to handle all of our patients
               needs, including wheelchair accessibility and stretchers.

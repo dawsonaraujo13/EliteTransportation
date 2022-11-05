@@ -1,6 +1,6 @@
 .et__features-wrapper {
   width: 100%;
-  height: 20vh;
+  height: fit-content;
 }
 
 .et__features-header {

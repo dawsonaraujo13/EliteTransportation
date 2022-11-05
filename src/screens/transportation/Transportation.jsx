@@ -1,9 +1,10 @@
 import React from "react";
-import { Form } from "../../components";
+import { Form, ContactBanner } from "../../components";
 const Transportation = () => {
   return (
     <>
       <div>
+        <ContactBanner />
         <Form />
       </div>
     </>

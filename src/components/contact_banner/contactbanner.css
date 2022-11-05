@@ -27,3 +27,21 @@
 .et__header-contact-items {
   display: flex;
 }
+
+@media screen and (max-width: 750px) {
+  .et__header-contact {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .et__header-contact {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .et__header-contact-items {
+    flex-direction: column;
+  }
+}

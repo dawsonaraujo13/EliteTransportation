@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./form.css";
-import { ContactBanner } from "../";
 import { send } from "emailjs-com";
 import { useNavigate } from "react-router-dom";
 
@@ -65,7 +64,6 @@ const Form = () => {
 
   return (
     <>
-      <ContactBanner />
       <div className="et__form-wrapper gradient__bg-subpage">
         <div className="et__form-container">
           <form
